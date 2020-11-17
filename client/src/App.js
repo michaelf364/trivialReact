@@ -1,13 +1,13 @@
-import React from "react";
-import Books from "./pages/Books";
-import Nav from "./components/Nav";
-
+import React, { useState, useEffect } from "react";
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
+import Start from "./pages/Start";
 function App() {
   return (
-    <div>
-      <Nav />
-      <Books />
-    </div>
+    <Router>
+      <div class="row">
+      <Route exact path="/" component={Start} />
+      </div>
+    </Router>
   );
 }
 
