@@ -1,10 +1,10 @@
 import React from "react";
-import Home from "../components/Home";
+import HighScores from "../components/HighScores";
 
-function HomePage() {
+function HighScoresPage() {
   return (
-    < Home />
+    < HighScores />
   );
 }
 
-export default HomePage;
+export default HighScoresPage;
